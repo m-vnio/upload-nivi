@@ -75,7 +75,9 @@ $elements.subir.addEventListener('click', ()=> {
 
     fetch( $elements.urlFetch.value, { method : 'POST', body : formData })
         .then( res => res.json() )
-        .then( console.log )
+        .then( files => {
+          alert(files.length)
+        })
 
 })
 
