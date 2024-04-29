@@ -64,7 +64,7 @@ $elements.subir.addEventListener('click', ()=> {
     if( !files.length ) return alert('no imagenes para subir')
 
     const fileUpload = files.splice(0, files.length)
-
+    return fileUpload.length
     const formData = new FormData
 
 
