@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
+    <title>Imagen</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://hammerjs.github.io/dist/hammer.min.js"></script>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+</head>
+
+<body>
+    <div id="root">
+        <header>
+            <div class="div_xCQbvlX">
+                <input id="urlFetch" type="text" class="input_7liJEmO" placeholder="fetch de imagen">
+                <div class="div_iYQOoSf">
+                    <button id="subir"><i class="fi fi-rr-upload"></i></button>
+                </div>  
+            </div>
+            <div class="div_xCQbvlX">
+                <input id="urlImage" type="search" placeholder="url de imagen">
+                <div class="div_iYQOoSf">
+                    <label class="file">
+                        <input type="file" id="file" accept="image/*" multiple style="display: none;">
+                        <i class="fi fi-rr-add-image"></i>
+                    </label>
+                </div>
+            </div>
+        </header>
+        <div id="container" class="container">
+            <div id="images" class="div_WUHoz2p"></div>
+        </div>
+    </div>
+    <script src="./lib.js"></script>
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
