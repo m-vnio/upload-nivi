@@ -145,5 +145,5 @@ document.addEventListener('paste', e => {
         }
     }
 });
-
-addEventListener('contextmenu', e => e.preventDefault())
+/*
+addEventListener('contextmenu', e => e.preventDefault())*/
